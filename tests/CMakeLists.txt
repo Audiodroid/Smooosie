@@ -19,8 +19,8 @@ file(GLOB test_src
 
 juce_add_console_app(${target}
         VERSION "1.0.0"
-        PRODUCT_NAME "MCRJuce"
-        COMPANY_NAME "MCR"
+        PRODUCT_NAME "SMOOTHIE"
+        COMPANY_NAME ""
 )
 
 target_sources(${target}

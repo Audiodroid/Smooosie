@@ -13,7 +13,7 @@ cmake_minimum_required(VERSION 3.15)
 # The top-level CMakeLists.txt file for a project must contain a literal, direct call to the
 # `project()` command. `project()` sets up some helpful variables that describe source/binary
 # directories, and the current project version. This is a standard CMake command.
-set(target "MCRJuce")
+set(target "Smoosie")
 
 project(${target} LANGUAGES CXX VERSION 0.0.1)
 
