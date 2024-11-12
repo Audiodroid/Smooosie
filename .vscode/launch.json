@@ -1,0 +1,50 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Selected Target",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/${input:targetExecutable}", // Dynamically specify the executable
+            "args": [], // Add any arguments if needed
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb", // Use "lldb" for macOS or "gdb" for Linux or Windows            
+            "setupCommands": [ // macOS
+                {
+                    "description": "Enable pretty-printing for lldb",
+                    "text": "settings set target.run-args pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            // "setupCommands": [ // Windows
+            //     {
+            //         "description": "Enable pretty-printing for gdb",
+            //         "text": "-enable-pretty-printing",
+            //         "ignoreFailures": true
+            //     }
+            // ],
+            "miDebuggerPath": "/usr/bin/lldb", // "/usr/bin/lldb" for macOS, "/usr/bin/gdb" for Windows
+            "logging": {
+                "engineLogging": false,
+                "trace": false,
+                "traceResponse": false
+            }
+        }
+    ],
+    "inputs": [
+        {
+            "id": "targetExecutable",
+            "type": "pickString",
+            "description": "Select the target executable",
+            "options": [
+                "Target1Executable",
+                "Target2Executable"
+                // Add more target executable names here
+            ],
+            "default": "Target1Executable"
+        }
+    ]
+}
