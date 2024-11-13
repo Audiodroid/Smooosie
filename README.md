@@ -11,13 +11,14 @@ The tests in `tests`.
 
 # How to run this
 In your terminal, navigate to the root folder. Enter:
-`cmake -S . -B build`
-`cmake --build build`
+* `cmake -S . -B build`
+* `cmake --build build`
 
 # Links
 LinkedIn:
-[Marcel Roth](https://www.linkedin.com/in/marcelroth/) marcel.roth76@gmail.com
-[Dino Pollano](https://www.linkedin.com/in/dinopollano/)
+* [Marcel Roth](https://www.linkedin.com/in/marcelroth/) 
+* marcel.roth76@gmail.com
+* [Dino Pollano](https://www.linkedin.com/in/dinopollano/)
 
 [Property-based testing video](https://www.youtube.com/watch?v=IYzDFHx6QPY)
 
