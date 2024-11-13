@@ -16,8 +16,7 @@ In your terminal, navigate to the root folder. Enter:
 
 # Links
 LinkedIn:
-* [Marcel Roth](https://www.linkedin.com/in/marcelroth/) 
-* marcel.roth76@gmail.com
+* [Marcel Roth](https://www.linkedin.com/in/marcelroth/), email: marcel.roth76@gmail.com
 * [Dino Pollano](https://www.linkedin.com/in/dinopollano/)
 
 [Property-based testing video](https://www.youtube.com/watch?v=IYzDFHx6QPY)
