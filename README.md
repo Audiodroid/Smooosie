@@ -1,4 +1,4 @@
-# Smooothie
+# Smooosie
 make a JUCE project with
 * cmake,
 * catch2 and
